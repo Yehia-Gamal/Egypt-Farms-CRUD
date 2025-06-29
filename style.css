@@ -172,8 +172,31 @@ th {
 /* Start Media  */
 @media (max-width: 767px) {
 
+  body {
+    padding: 10px;
+  }
+
   .header img {
     width: 80px;
+  }
+
+  .export-buttons div {
+    text-align: right;
+  }
+
+  .export-buttons button {
+    font-size: 15px;
+    padding: 8px 15px;
+    margin: 10px;
+  }
+
+  .calculate2 {
+    width: 140px;
+    font-weight: bold;
+  }
+
+  .table-container {
+    margin-top: 10px;
   }
 
   h1 {
@@ -183,8 +206,21 @@ th {
     font-size: 21px;
   }
 
+  .container {
+    padding: 3px;
+  }
+
   .content {
     /* flex-direction: column; */
+  }
+
+  label {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .inputs {
+    margin: 0 5px;
   }
 
   .content .box {
@@ -203,20 +239,20 @@ th {
     background-color: #008b8b;
     color: #fff;
     font-size: 10px;
-    padding: 2px;
+    padding: 0px;
     margin: 0;
   }
 
   td {
     padding: 2px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   table td button {
     background: none;
-    font-size: 15px;
-    padding: 2px;
-    margin: 2px;
+    font-size: 10px;
+    padding: 1px;
+    margin: 1px;
     letter-spacing: 0;
   }
 }
